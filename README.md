@@ -5,5 +5,7 @@
 #Demo
 
 ```java
-
+String toaddress = "yourtoaddress";
+MailHandler maillogin = MailHandler.getInstence("fromaddress@aaa.com","password");
+maillogin.sendMessage(new MailMessage(maillogin.getMail()).setToAddress(toaddress).setSubject("这是一个封测试邮件，我是邮件的标题").addText("这是一个邮件内容").addExtra("G:\\jilege.doc").init());
 ```
