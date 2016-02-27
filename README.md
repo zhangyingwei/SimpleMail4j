@@ -1,5 +1,5 @@
 # SimpleMail4j
-> 一个基于com.sun.mail封装的mail4j工具包
+> **一个基于com.sun.mail封装的mail4j工具包**
 
 ##example
 ```
