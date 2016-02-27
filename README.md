@@ -10,6 +10,7 @@ mailHandler.send("toaddress@xxx.com", "邮件主题","邮件内容",urls);
 ```
 
 ##主要方法
+```
 * MailHandlerProxy
 	* public static MailHandlerProxy getInstance(); //获取MailHandlerProxy实例
 	* public MailHandler login(String username,String password) throws Exception;//登录
@@ -23,3 +24,4 @@ mailHandler.send("toaddress@xxx.com", "邮件主题","邮件内容",urls);
 	* public String getSubject();//获取邮件信息主题
 	* public MailMessage addContent(String content);//添加邮件内容
 	* public MailMessage addExtra(String extraUrl);//添加邮件附件
+```
